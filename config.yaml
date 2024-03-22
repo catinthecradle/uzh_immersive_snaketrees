@@ -1,0 +1,48 @@
+---
+# Tagger
+# Possible values: performance, pooling_demo, new_process
+tagger: performance
+
+# Database
+database:
+  name: MJF-Test
+  tables:
+    media:
+      name: media
+      keys:
+        path_to_file: media_path
+    features:
+      name: feature
+      keys:
+        media_id: media_id
+        model_name: model_name
+        data: data
+
+# Default settings
+defaults:
+  media_path_root: /Users/jonas/Documents/Bachelor Thesis/MJF Videos/MP4/
+  output_folder: FEATURE_EXTRACTION/
+
+# Dimensionality reduction
+dr:
+  perplexity: 200
+  iterations: 1000
+
+# Clustering
+clustering:
+  branching_factors: [5,5,4]
+
+# Combiner
+models:
+  mtg_jamendo_genre: "Genre"
+  mtg_jamendo_instrument: "Instrument"
+  mtg_jamendo_moodtheme: "Mood"
+branching_filenames:
+  branches_filename: "ue_branch_clusters_geometry.json"
+  leaves_filename: "ue_leaf_clusters_geometry.json"
+metadata:
+  metadata_filename: "ue_song_metadata.json"
+  best_of: 7
+preprocessor:
+  containing_clusters_filename: "ue_containing_clusters.json"
+  cluster_relations_filename: "ue_cluster_relations.csv"

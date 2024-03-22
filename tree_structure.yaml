@@ -1,0 +1,65 @@
+- DB_Length: 5000.0
+  DB_Rotate: 0.0
+  StartWidth: 20.0
+  EndWidth: 7.0
+- RotateSideBranches:
+  - 70.0
+  Length: 3500.0
+  StartTangent:
+    X: 300.0
+    Y: 0.0
+    Z: 200.0
+  EndTangent:
+    X: 0.0
+    Y: 0.0
+    Z: 100.0
+  Y-Angle: 60.0
+  StartWidth: 7.0
+  EndWidth: 1.5
+- RotateSideBranches:
+  - 0.0
+  - 45.0
+  Length: 1500.0
+  StartTangent:
+    X: 250.0
+    Y: 0.0
+    Z: 250.0
+  EndTangent:
+    X: 0.0
+    Y: 0.0
+    Z: 100.0
+  Y-Angle: 90.0
+  StartWidth: 1.5
+  EndWidth: 1.5
+  DB_Length: 1000.0
+  DB_Rotate: 45.0
+- RotateSideBranches:
+  - 45.0
+  Length: 800.0
+  StartTangent:
+    X: 300.0
+    Y: 0.0
+    Z: 200.0
+  EndTangent:
+    X: -50.0
+    Y: 0.0
+    Z: 200.0
+  Y-Angle: 60.0
+  StartWidth: 1.5
+  EndWidth: 1.0
+  DB_Length: 1000.0
+  DB_Rotate: 0.0
+- RotateSideBranches:
+  - 0.0
+  Length: 700.0
+  StartTangent:
+    X: 200.0
+    Y: 0.0
+    Z: 200.0
+  EndTangent:
+    X: 0.0
+    Y: 0.0
+    Z: 100.0
+  Y-Angle: 50.0
+  StartWidth: 1.0
+  EndWidth: 0.5
